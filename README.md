@@ -12,6 +12,10 @@ The problem can be solved using a breadth-first search (BFS) approach. The lock 
 8. Continue the process until the queue is empty, and return -1 if the target state cannot be reached.
 # Complexity
 - Time complexity:
-The time complexity of the BFS approach is O(N×10^4), where N is the length of the target code (4 in this case), and each state has 10 possible neighbors (one for each digit from 0 to 9). The worst case is when all possible codes (10,000) need to be explored.
+The time complexity of the BFS approach is O(N×10^4), where N is the length of the target code (4 in this case), and each state has 10 possible neighbours (one for each digit from 0 to 9). The worst case is when all possible codes (10,000) need to be explored.
 - Space complexity:
 The space complexity is O(10^4) since we need to store the visited states to avoid revisiting them and maintain a queue for BFS traversal. This can be up to 10,000 different states (10 choices for each of the 4 wheels).
+
+#lettcode link
+
+https://leetcode.com/problems/open-the-lock/solutions/5060192/c-beats-81-01-in-runtime/
